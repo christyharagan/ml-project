@@ -1,0 +1,42 @@
+{
+  "name": "ml-project",
+  "version": "0.1.0",
+  "description": "Provides an accelerated way for writing JavaScript or TypeScript projects built on Marklogic",
+  "main": "dist/lib/index.js",
+  "repository": "christyharagan/ml-project",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "typescript": {
+    "definition": "ml-project.d.ts"
+  },
+  "keywords": [
+    "marklogic",
+    "admin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "brfs": "^1.4.0",
+    "browserify": "^10.2.4",
+    "speckle": "^0.1.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "marklogic": "1.0.2",
+    "merge-stream": "^0.1.7",
+    "ml-admin": "^0.2.0",
+    "ml-typescript-definitions": "^0.2.0",
+    "ml-uservices": "^0.2.0",
+    "through2": "^2.0.0",
+    "tsify": "^0.11.2",
+    "typescript": "^1.5.0-beta",
+    "typescript-schema": "^0.3.0",
+    "uservices": "^0.3.0",
+    "vinyl": "^0.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.3"
+  },
+  "devDependencies": {}
+}

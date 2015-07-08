@@ -1,0 +1,52 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "declaration": true,
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "noLib": false,
+        "rootDir": ".",
+        "sourceMap": true,
+        "sourceRoot": ".",
+        "target": "es5",
+        "outDir": "./dist"
+    },
+    "filesGlob": [
+        "./lib/**/*.ts",
+        "./typings/**/*.d.ts",
+        "./test/**/*.ts",
+        "./node_modules/*/*.d.ts",
+        "./ml-project.d.ts"
+    ],
+    "compileOnSave": true,
+    "files": [
+        "./lib/build/client.ts",
+        "./lib/build/database.ts",
+        "./lib/build/json.ts",
+        "./lib/build/middle.ts",
+        "./lib/config.ts",
+        "./lib/index.ts",
+        "./typings/browserify/browserify.d.ts",
+        "./typings/chalk/chalk.d.ts",
+        "./typings/es6/es6.d.ts",
+        "./typings/gulp-sourcemaps/gulp-sourcemaps.d.ts",
+        "./typings/gulp-util/gulp-util.d.ts",
+        "./typings/merge-stream/merge-stream.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/through2/through2.d.ts",
+        "./typings/tsd.d.ts",
+        "./typings/vinyl-source-stream/vinyl-source-stream.d.ts",
+        "./typings/vinyl/vinyl.d.ts",
+        "./node_modules/gulp-ml-admin/gulp-ml-admin.d.ts",
+        "./node_modules/gulp-ml-uservices/gulp-ml-uservices.d.ts",
+        "./node_modules/gulp-typescript-schema/gulp-typescript-schema.d.ts",
+        "./node_modules/ml-admin/ml-admin.d.ts",
+        "./node_modules/ml-typescript-definitions/client.d.ts",
+        "./node_modules/ml-typescript-definitions/server.d.ts",
+        "./node_modules/ml-uservices/ml-uservices.d.ts",
+        "./node_modules/speckle/speckle.d.ts",
+        "./node_modules/typescript-schema/typescript-schema.d.ts",
+        "./node_modules/uservices/uservices.d.ts",
+        "./ml-project.d.ts"
+    ]
+}
