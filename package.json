@@ -1,6 +1,6 @@
 {
   "name": "ml-project",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Provides an accelerated way for writing JavaScript or TypeScript projects built on Marklogic",
   "main": "dist/lib/index.js",
   "repository": "christyharagan/ml-project",
