@@ -7,7 +7,8 @@ import {Config} from '../config'
 
 export interface JsonOptions {
   definition?: Object
-  config: Config
+  config: Config,
+  packageName: string
 }
 
 export function buildJson(options:JsonOptions) : NodeJS.ReadWriteStream {
@@ -21,7 +22,7 @@ export function buildJson(options:JsonOptions) : NodeJS.ReadWriteStream {
 
     callback()
   }, function() {
-    let rawSchema = generateRawSchema(files)
+    let rawSchema = generateRawSchema(files, options.packageName)
     let schema = rawSchemaToSchema(rawSchema)
 
     this.push(new File({
